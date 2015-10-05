@@ -125,6 +125,6 @@ If you only wish to temporarily use the dynamic service port IP address (e.g. be
 
 ## Bring your own vWLC configuration
 
-You can deploy your own vWLC configuration file to the deployed vWLC virtual machine by configuring the `wlc_vm_config_file` variable:
+You can deploy your own vWLC configuration file to the deployed vWLC virtual machine by configuring the `wlc_config_file` variable:
 
 `$ ansible-playbook site.yml --extra-vars wlc_config_file=/path/to/ciscowlc.cfg`
