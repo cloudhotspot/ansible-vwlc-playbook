@@ -1,7 +1,7 @@
 ---
 - hosts: all
   vars:
-    wlc_ova_source: "/Volumes/Promise RAID/Downloads/AIR-CTVM-K9-8-0-120-0.ova"
-    wlc_vm_root: "/Volumes/Promise RAID/Virtual Machines.localized"
+    wlc_ova_source: "/path/to/ova/source"
+    wlc_vm_root: "/path/to/vm/root"
   roles:
     - mixja.vwlc
